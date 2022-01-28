@@ -11,8 +11,9 @@ function setup(){
 }
 function draw(){
     background('#3bb35b');
+     textsize(diff);
     text("Meshail", 50 , 50);
-    textsize(diff);
+   
     
 }
 function modelloaded(){
