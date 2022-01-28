@@ -22,7 +22,7 @@ function gotposes(result){
         left_hand_wrist= result[0].pose.leftWrist.x;
         right_hand_wrist= result[0].pose.rightWrist.x;
         console.log("Right Hand Wrist = " + right_hand_wrist + "Left Hand Wrist = " + left_hand_wrist);
-        diff=left_hand_wrist - right_hand_wrist;
+        diff=floor(left_hand_wrist - right_hand_wrist);
     }
     
 }
