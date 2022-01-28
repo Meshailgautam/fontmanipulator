@@ -9,10 +9,7 @@ function setup(){
     posenet=ml5.poseNet(video,modelloaded);
     posenet.on('pose',gotposes);
 }
-function draw(){
-    background('#3bb35b');
-     textSize(diff);
-    text("Meshail", 50 , 50);
+
    
     
 }
@@ -29,3 +26,7 @@ function gotposes(result){
     }
     
 }
+function draw(){
+    background('#3bb35b');
+     textSize(diff);
+    text("Meshail", 50 , 50);
