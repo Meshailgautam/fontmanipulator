@@ -30,3 +30,4 @@ function draw(){
     background('#3bb35b');
      textSize(diff);
     text("Meshail", 50 , 50);
+    console.log("Difference Between Left and Right Wrist = " + diff );
