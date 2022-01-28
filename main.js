@@ -11,7 +11,7 @@ function setup(){
 }
 function draw(){
     background('#3bb35b');
-     textsize(diff);
+     textSize(diff);
     text("Meshail", 50 , 50);
    
     
